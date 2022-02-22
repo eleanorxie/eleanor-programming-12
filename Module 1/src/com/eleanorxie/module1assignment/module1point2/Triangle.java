@@ -7,8 +7,11 @@ public class Triangle extends TwoDShape {
     private double side2;
     private double side3;
 
+    private boolean check = true;
+
     public Triangle(double width, double height){
         super(width, height);
+        check = false;
     }
 
     public Triangle(double side1, double side2, double side3) {
@@ -27,14 +30,28 @@ public class Triangle extends TwoDShape {
     }
 
     public double getArea(){
-        return (super.getHeight() * super.getWidth() / 2);
+        if (check) {
+            double s1 = (side1 + side2 + side3) / 2;
+            double area1 = Math.sqrt(s1 * (s1 - side1) * (s1 - side2) * (s1 - side3));
+            return area1;
+
+        }
+        else {
+            return (super.getHeight() * super.getWidth() / 2);
+        }
     }
 
     @Override
     public String toString() {
-        return "Triangle{" +
-                "side1=" + side1 +
-                ", side2=" + side2 +
-                ", side3=" + side3 + "Area=" + getArea() + "}";
+        if (check) {
+            return "Triangle{" +
+                    "side1=" + side1 +
+                    ", side2=" + side2 +
+                    ", side3=" + side3 + " Area=" + getArea() + "}";
+        }
+        else{
+
+        }
+
     }
 }

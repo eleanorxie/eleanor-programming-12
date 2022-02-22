@@ -22,7 +22,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Study Helper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eleanorxie.module1assignment.module1point4" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -57,6 +62,7 @@
       <workItem from="1645561447514" duration="6000" />
       <workItem from="1645561482740" duration="6000" />
       <workItem from="1645568576672" duration="38000" />
+      <workItem from="1645568869467" duration="1992000" />
     </task>
     <servers />
   </component>
