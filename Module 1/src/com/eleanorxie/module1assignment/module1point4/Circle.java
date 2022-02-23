@@ -19,7 +19,7 @@ public class Circle extends TwoDShape {
     public String toString() {
         return "Circle{" +
                 "Area" + getArea() +
-                ", radius=" + radius + "colour=" + this.colour +
+                ", radius=" + radius + ", colour=" + this.colour +
                 '}';
     }
 }
