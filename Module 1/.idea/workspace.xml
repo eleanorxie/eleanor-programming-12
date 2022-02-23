@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9d7714-767d-4492-9787-4ce4d7a1ec4b" name="Changes" comment="" />
+    <list default="true" id="1f9d7714-767d-4492-9787-4ce4d7a1ec4b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 1/com/eleanorxie/module1assignment/module1point2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 1/com/eleanorxie/module1assignment/module1point2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 1/com/eleanorxie/module1assignment/module1point2/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 1/com/eleanorxie/module1assignment/module1point2/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 1/com/eleanorxie/module1assignment/module1point4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 1/com/eleanorxie/module1assignment/module1point4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 1/com/eleanorxie/module1assignment/module1point4/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 1/com/eleanorxie/module1assignment/module1point4/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point2/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point2/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/Triangle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +46,7 @@
       <recent name="com.eleanorxie.module1assignment.module1point4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eleanorxie.module1assignment.module1point4.Main" />
       <module name="Module 1" />
@@ -65,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +95,7 @@
       <workItem from="1645568576672" duration="38000" />
       <workItem from="1645568869467" duration="1992000" />
       <workItem from="1645649732921" duration="2702000" />
+      <workItem from="1645652772653" duration="710000" />
     </task>
     <servers />
   </component>

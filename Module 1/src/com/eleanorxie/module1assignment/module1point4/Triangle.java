@@ -11,6 +11,13 @@ public class Triangle extends TwoDShape implements Rotate {
         check = false;
     }
 
+    /**
+     * The sum of two sides needs to be greater than the third side.
+     * @param side1
+     * @param side2
+     * @param side3
+     * @param colour
+     */
     public Triangle(double side1, double side2, double side3, Colour colour) {
         this.side1 = side1;
         this.side2 = side2;
@@ -32,7 +39,6 @@ public class Triangle extends TwoDShape implements Rotate {
             double s1 = (side1 + side2 + side3) / 2;
             double area1 = Math.sqrt(s1 * (s1 - side1) * (s1 - side2) * (s1 - side3));
             return area1;
-
         }
         else {
             return (super.getHeight() * super.getWidth() / 2);
@@ -45,7 +51,7 @@ public class Triangle extends TwoDShape implements Rotate {
             return "Triangle{" +
                     "side1=" + side1 +
                     ", side2=" + side2 +
-                    ", side3=" + side3 + "Area=" + getArea() + ", colour=" + colour + "}";
+                    ", side3=" + side3 + ", Area=" + getArea() + ", colour=" + colour + "}";
         }
         else{
             return "Triangle{" + "width=" + getWidth() + ", height=" + getHeight() + ", colour=" + colour + "}";
