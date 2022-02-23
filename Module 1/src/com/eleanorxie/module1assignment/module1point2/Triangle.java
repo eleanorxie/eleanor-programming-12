@@ -14,13 +14,6 @@ public class Triangle extends TwoDShape {
         check = false;
     }
 
-    /**
-     * The sum of two sides needs to be greater than the third side.
-     * @param side1
-     * @param side2
-     * @param side3
-     */
-
     public Triangle(double side1, double side2, double side3) {
         this.side1 = side1;
         this.side2 = side2;

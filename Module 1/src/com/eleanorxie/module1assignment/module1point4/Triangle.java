@@ -13,6 +13,7 @@ public class Triangle extends TwoDShape implements Rotate {
 
     /**
      * The sum of two sides needs to be greater than the third side.
+     * Each side should be greater than 0;
      * @param side1
      * @param side2
      * @param side3
@@ -28,6 +29,12 @@ public class Triangle extends TwoDShape implements Rotate {
     }
 
     private double heronsHeight(){
+        double s = (side1 + side2 + side3) / 2;
+        double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+        double heronsHeight = area * 2 / side1;
+        return heronsHeight;
+    }
+    public double publicHeronsHeight(){
         double s = (side1 + side2 + side3) / 2;
         double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
         double heronsHeight = area * 2 / side1;
