@@ -10,12 +10,14 @@ public class Circle extends TwoDShape {
     }
 
     @Override
+    //return the area of the circle.
     public double getArea() {
         double area = PI * radius * radius;
         return area;
     }
 
     @Override
+    //return key characteristics of the circle.
     public String toString() {
         return "Circle{" +
                 "Area" + getArea() +

@@ -17,19 +17,19 @@ public abstract class TwoDShape {
     }
 
     public abstract double getArea();
-
+    //a setter for height.
     public void setHeight(double height) {
         this.height = height;
     }
-
+    //a setter for width.
     public void setWidth(double width) {
         this.width = width;
     }
-
+    //a getter for height.
     public double getHeight() {
         return height;
     }
-
+    //a getter for width.
     public double getWidth() {
         return width;
     }
