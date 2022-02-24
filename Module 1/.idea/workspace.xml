@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9d7714-767d-4492-9787-4ce4d7a1ec4b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test Directory/com/eleanorxie/module1assignment/module1point4/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test Directory/com/eleanorxie/module1assignment/module1point4/TriangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Module 1/com/eleanorxie/module1assignment/module1point4/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Module 1/com/eleanorxie/module1assignment/module1point4/TriangleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/TwoDShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eleanorxie/module1assignment/module1point4/TwoDShape.java" afterDir="false" />
-    </list>
+    <list default="true" id="1f9d7714-767d-4492-9787-4ce4d7a1ec4b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +53,7 @@
       <recent name="com.eleanorxie.module1assignment.module1point4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest.getArea">
+  <component name="RunManager" selected="JUnit.TriangleTest">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eleanorxie.module1assignment.module1point4.Main" />
       <module name="Module 1" />
@@ -83,6 +76,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eleanorxie.module1assignment.module1point4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eleanorxie.module1assignment.module1point4" />
+      <option name="MAIN_CLASS_NAME" value="com.eleanorxie.module1assignment.module1point4.TriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,10 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TriangleTest.getArea" />
         <item itemvalue="JUnit.TriangleTest.publicHeronsHeight" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +154,7 @@
       <workItem from="1645649732921" duration="2702000" />
       <workItem from="1645652772653" duration="710000" />
       <workItem from="1645653680374" duration="3751000" />
+      <workItem from="1645739063814" duration="880000" />
     </task>
     <servers />
   </component>
