@@ -21,6 +21,8 @@ class TriangleTest {
         Triangle triangle2 = new Triangle(2.0, 4.0, Colour.RED);
         double area2 = 2.0 * 4.0 / 2;
         assertEquals(area2, triangle2.getArea());
+
+        //
     }
 
     @Test
