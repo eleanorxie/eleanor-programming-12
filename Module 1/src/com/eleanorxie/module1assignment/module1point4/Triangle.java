@@ -14,11 +14,10 @@ public class Triangle extends TwoDShape implements Rotate {
 
     /**
      * The sum of two sides needs to be greater than the third side.
-     * Each side should be greater than 0;
-     * @param side1
-     * @param side2
-     * @param side3
-     * @param colour
+     * @param side1 > 0
+     * @param side2 > 0
+     * @param side3 > 0
+     * @param colour only red, blue, green, none
      */
     public Triangle(double side1, double side2, double side3, Colour colour) {
         this.side1 = side1;
