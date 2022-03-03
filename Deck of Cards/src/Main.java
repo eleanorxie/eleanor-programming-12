@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 
@@ -11,7 +12,18 @@ public class Main {
             deck.add(new Card(Suit.CLUBS, i));
             deck.add(new Card(Suit.DIAMONDS, i));
         }
-        Collections.sort(deck,Card::compareTo);
+        Collections.sort(deck);
+        for (Card c : deck) {
+            System.out.println(c);
+        }
+        Collections.shuffle(deck);
+        System.out.print("\n");
+        ArrayList<Card> hand = new ArrayList<>(5);
+        for(int i = 0; i < 5; i++){
+            hand.add(deck.pollLast());
+        }
+        System.out.println(hand);
+        System.out.print("\n");
         for (Card c : deck) {
             System.out.println(c);
         }
