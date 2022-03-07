@@ -31,9 +31,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -62,6 +63,8 @@
       <workItem from="1646201812160" duration="1887000" />
       <workItem from="1646257780915" duration="4551000" />
       <workItem from="1646346160996" duration="2336000" />
+      <workItem from="1646431495082" duration="1361000" />
+      <workItem from="1646691075502" duration="55000" />
     </task>
     <servers />
   </component>
